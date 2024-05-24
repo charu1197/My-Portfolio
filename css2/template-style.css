@@ -441,11 +441,11 @@ aside.aside-left {
 .primary-color-white .background-primary .h1, .primary-color-white .background-primary .h2, .primary-color-white .background-primary .h3, .primary-color-white .background-primary .h4, .primary-color-white .background-primary .h5, .primary-color-white .background-primary .h6 {
   color: #002633;
 } 
-.image-hover-overlay-content *,
+/* .image-hover-overlay-content *,
 .background-primary, .background-primary p, a.background-primary, a.background-primary:visited, a.background-primary:link, .background-primary a, .background-primary a:link, .background-primary a:visited, .background-primary a:hover, .background-primary a:active,
 .primary-color-primary .background-primary, .primary-color-primary .background-primary p, .primary-color-primary a.background-primary, .primary-color-primary a.background-primary:visited, .primary-color-primary a.background-primary:link, .primary-color-primary .background-primary a, .primary-color-primary .background-primary a:link, .primary-color-primary .background-primary a:visited, .primary-color-primary .background-primary a:hover, .primary-color-primary .background-primary a:active {
   color: rgba(255,255,255, 0.75);
-}
+} */
 .background-dark h1, .background-dark h2, .background-dark h3, .background-dark h4, .background-dark h5, .background-dark h6,
 .background-dark .h1, .background-dark .h2, .background-dark .h3, .background-dark .h4, .background-dark .h5, .background-dark .h6, 
 .primary-color-dark .background-primary h1, .primary-color-dark .background-primary h2, .primary-color-dark .background-primary h3, .primary-color-dark .background-primary h4, .primary-color-dark .background-primary h5, .primary-color-dark .background-primary h6,
@@ -494,7 +494,7 @@ aside.aside-left {
 }
 
 /* Hover Overlay */
-.image-hover-overlay {
+/* .image-hover-overlay {
   bottom: 0;
   color: rgba(255,255,255, 0.75)!important;
   left: 0;
@@ -539,7 +539,7 @@ aside.aside-left {
 }
 .image-hover-overlay:hover > .image-hover-overlay-content {
   top: 50%;
-}
+} */
 
 /* Image blocks */
 .image-with-hover-overlay {
