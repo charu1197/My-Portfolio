@@ -260,6 +260,22 @@ https://templatemo.com/tm-464-ultra-profile
 	</section>
 	<!-- END RESUME -->
 
+    <!-- START ABOUT -->
+	<section id="about" class="tm-about">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-offset-6 col-md-6 col-sm-offset-6 col-sm-7" id="about-me">
+					<!-- <div class="title">
+						<h2>This is <strong>me</strong></h2>
+						<h1 class="tm-red-text">Creative <strong>Director</strong></h1>
+					</div>
+					<p>This is free Bootstrap v3.3.4 mobile friendly layout from <a rel="nofollow" href="https://templatemo.com">templatemo</a>. Feel free to use it for your website. Credit goes to <a rel="nofollow" href="https://pixabay.com">Pixabay</a> for photos used in this template. Dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat.</p> -->
+				</div>
+			</div>
+		</div>
+	</section>
+
 	<!-- START CONTACT -->
 	<section id="contact" class="tm-contact">
         <div class="container">
@@ -447,6 +463,36 @@ https://templatemo.com/tm-464-ultra-profile
     }
   });
 </script>
+<script>
+    // Function to open the modal
+    function openModal() {
+        var modal = document.getElementById('resumeModal');
+        modal.style.display = 'block';
+    }
+
+    // Function to close the modal
+    function closeModal() {
+        var modal = document.getElementById('resumeModal');
+        modal.style.display = 'none';
+    }
+
+    // Function to download the resume
+    function downloadResume() {
+        var link = document.createElement('a');
+        link.href = 'file/Charlimagne-Semborio_Resume.pdf';
+        link.download = 'Charlimagne-Semborio_Resume.pdf';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    }
+
+    // Add event listener to the "See More Info" button
+    document.getElementById('openModal').addEventListener('click', openModal);
+
+    // Add event listener to the close button in the modal
+    document.getElementsByClassName('close')[0].addEventListener('click', closeModal);
+</script>
+
 	
 </body>
 </html>

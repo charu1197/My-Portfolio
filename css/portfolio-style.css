@@ -72,9 +72,6 @@ span {
   margin-right: 7em;
 }
 
-.star-rating input[type="radio"] {
-  display: none;
-}
 
 .star-rating label.star {
   float: right;
@@ -84,10 +81,6 @@ span {
   cursor: pointer;
 }
 
-.star-rating input[type="radio"]:checked ~ label.star:before {
-  content: "\2605"; /* Unicode character for a filled star */
-  color: #FFD700; /* Color of filled stars */
-}
 
 span:nth-child(1) {
   animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
