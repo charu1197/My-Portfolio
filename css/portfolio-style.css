@@ -548,11 +548,11 @@ hr {
   padding: 10px 40px 10px 40px;
   border: 1px solid #1973af;
 }
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   #begin-btn {
     margin-top: -1em;
   }
-}
+} */
 
 #gd{
 color: #e8e8e8;
