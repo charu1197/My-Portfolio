@@ -165,7 +165,7 @@ hr {
   line-height: 45px;
   letter-spacing: 1px;
 }
-.navbar-default .navbar-nav li a:hover { color: #2fccb2; }
+.navbar-default .navbar-nav li a:hover { color: #1973af; }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
   color: #eb5424;
@@ -174,7 +174,7 @@ hr {
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #2fccb2;
+  color: #1973af;
   background-color: transparent;
 }
 .navbar-default .navbar-toggle {
@@ -182,7 +182,7 @@ hr {
   padding-top: 10px;
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background: #2fccb2;
+  background: #1973af;
   border-color: transparent;
 }
 .navbar-default .navbar-toggle:hover,
@@ -221,7 +221,7 @@ hr {
 
 .tm-home-title,
  .tm-home-subtitle {
-  color: #17730e;
+  color: #1973af;
  }
 .tm-home-title { font-size: 60px; }
 .tm-home-subtitle {
@@ -268,7 +268,7 @@ hr {
   -webkit-transition: all 0.6s ease-in;
           transition: all 0.6s ease-in;
 }
-.work-wrapper:hover { border-color: #1973af; }
+.work-wrapper:hover { border-color: #4199d4; }
 .work-wrapper .fa {
   color: #888888;
   font-size: 60px;
@@ -380,7 +380,7 @@ hr {
 .filter-wrapper li a:focus,
  .filter-wrapper li a:hover,
  .filter-wrapper li a.selected {
-  color: #2fccb2;
+  color: #1973af;
 }
 
 /* ISOTOPE BOX CSS */
@@ -418,7 +418,7 @@ hr {
 /* END PORTFOLIO */
 
 /* START RESUME */
-.tm-red-text { color: #2fccb2; }
+.tm-red-text { color: #1973af; }
 .tm-info-label {
   font-weight: bold;
   display: inline-block;
@@ -429,7 +429,7 @@ hr {
   border-radius: 2px;
   height: 4px;
 }
-.progress-bar-danger { background: #2fccb2; }
+.progress-bar-danger { background: #1973af; }
 .tm-progress-label {
   font-size: 12px;
   font-weight: bold;
@@ -542,11 +542,11 @@ hr {
 }
 #begin-btn{
   border-radius: 3em;
-  background-color: #1b8271;
+  background-color: #1973af;
   color: white;
   font-size: 15px;
   padding: 10px 40px 10px 40px;
-  border: 1px solid #2fccb2;
+  border: 1px solid #1973af;
 }
 @media (max-width: 767px) {
   #begin-btn {
@@ -564,7 +564,7 @@ margin-bottom: -1em;
   margin-bottom: 2em;
 }
 #w1{
-  color: #2fccb2;
+  color: #1973af;
   font-family: "Montserrat", sans-serif;
 } 
 #wp{
@@ -576,11 +576,11 @@ margin-bottom: -1em;
 }
 #resume-btn{
   border-radius: 3em;
-  background-color: #1b8271;
+  background-color: #1973af;
   color: white;
   font-size: 15px;
   padding: 10px 40px 10px 40px;
-  border: 1px solid #2fccb2;
+  border: 1px solid #1973af;
   margin-bottom: 1em;
 }
 #together{
@@ -592,7 +592,7 @@ margin-bottom: -1em;
   color: white;
   font-size: 15px;
   padding: 10px 40px 10px 40px;
-  border: 1px solid #2fccb2;
+  border: 1px solid #1973af;
   margin-bottom: 1em;
 }
 
