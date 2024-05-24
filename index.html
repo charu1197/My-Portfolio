@@ -278,17 +278,8 @@ https://templatemo.com/tm-464-ultra-profile
                 <div class="col-md-10 col-sm-10">
                     
                     <h2 class="title">Your<strong>Feedback</strong></h2>
-                    <h3 id="average-rating">Average Rating: <span id="average-rating-value">0</span> / 5</h3>
-                    <form id="my-form" action="https://formspree.io/f/mqkrodap" method="POST">
-                        <div class="col-md-6 col-sm-6">
-                            <label for="">Optional</label>
-                            <input id="email" class="form-control" type="email" name="email" placeholder="Your Email">
-                        </div>
 
-                        <div class="col-md-12 col-sm-12">
-                            <textarea id="message" class="form-control" name="message" placeholder="Your Message" rows="6"></textarea>
-                        </div>
-                        <label for="rating">Rate Me</label>
+					<label for="rating">Rate Me</label>
                         <div class="star-rating">
                             <input type="radio" id="5-stars" name="rating" value="5">
                             <label for="5-stars" class="star">&#9733;</label>
@@ -301,6 +292,17 @@ https://templatemo.com/tm-464-ultra-profile
                             <input type="radio" id="1-star" name="rating" value="1">
                             <label for="1-star" class="star">&#9733;</label>
                         </div>
+                    
+                    <form id="my-form" action="https://formspree.io/f/mqkrodap" method="POST">
+                        <div class="col-md-6 col-sm-6">
+                            <label for="">Optional</label>
+                            <input id="email" class="form-control" type="email" name="email" placeholder="Your Email">
+                        </div>
+
+                        <div class="col-md-12 col-sm-12">
+                            <textarea id="message" class="form-control" name="message" placeholder="Your Message" rows="6"></textarea>
+                        </div>
+                        
                         <button class="form-control" type="submit" id="my-form-button">Submit</button>
                         <p id="my-form-status"></p>
                       </form>
