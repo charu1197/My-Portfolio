@@ -192,7 +192,7 @@ hr {
 /* START HOME */
 .templatemo-home {
   position: relative; /* Ensure the overlay covers the entire background */
-  background: url('../images/portfolio-bg.png');
+  background: url('../images/a3.png');
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
@@ -261,14 +261,14 @@ hr {
   padding-bottom: 10px;
 }
 .work-wrapper {
-  border: 1px solid #2fccb2;
+  border: 1px solid #1973af;
   border-radius: 8px;
   text-align: center;
   padding: 80px 40px 80px 40px;
   -webkit-transition: all 0.6s ease-in;
           transition: all 0.6s ease-in;
 }
-.work-wrapper:hover { border-color: #2fccb2; }
+.work-wrapper:hover { border-color: #1973af; }
 .work-wrapper .fa {
   color: #888888;
   font-size: 60px;
