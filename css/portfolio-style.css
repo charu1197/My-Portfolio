@@ -545,8 +545,13 @@ hr {
   font-size: 15px;
   padding: 10px 40px 10px 40px;
   border: 1px solid #2fccb2;
-
 }
+@media (max-width: 767px) {
+  #begin-btn {
+    margin-top: -1em;
+  }
+}
+
 #gd{
 color: #e8e8e8;
 font-size: 17px;
