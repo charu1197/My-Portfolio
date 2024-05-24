@@ -72,6 +72,12 @@ span {
   margin-right: 7em;
 }
 
+@media (max-width: 767px) {
+  #average-rating {
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+}
 
 .star-rating label.star {
   float: right;
