@@ -34,11 +34,45 @@ https://templatemo.com/tm-464-ultra-profile
   margin-top: 2em;
 }
 
+.star-rating {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: center;
+            padding: 1rem 0;
+        }
+        .star-rating input {
+            display: none;
+        }
+        .star-rating label {
+            font-size: 2rem;
+            color: #ccc;
+            cursor: pointer;
+            transition: color 0.2s;
+        }
+        .star-rating input:checked ~ label,
+        .star-rating input:checked ~ label ~ label {
+            color: #f5b301;
+        }
+        .star-rating input:not(:checked) ~ label:hover,
+        .star-rating input:not(:checked) ~ label:hover ~ label {
+            color: #f5b301;
+        }
+
 span {
   display: inline-block;
   opacity: 0;
   filter: blur(4px);
 }
+#average-rating{
+  color: white;
+  padding: 10px;
+  border-radius: 3em;
+  background-color: #0000006c;
+  margin-left:7em;
+  margin-right: 7em;
+}
+
+
 
 span:nth-child(1) {
   animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
