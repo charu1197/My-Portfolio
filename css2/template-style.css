@@ -657,6 +657,8 @@ aside.aside-left {
   height:0;
   line-height:0;
   visibility:hidden;
+  margin-left: 2em;
+  margin-right: 2em;
 }
 .full-width > .line {
     padding: 0 1.875rem;

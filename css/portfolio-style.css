@@ -9,7 +9,7 @@ https://templatemo.com/tm-464-ultra-profile
 
 #mmain {
   color: white;
-  font-size: 7em;
+  font-size: 8em;
   text-align: center;
   letter-spacing: -9px;
   font-weight: bolder;
@@ -303,7 +303,8 @@ hr {
 }
 .portfolio-thumb {
   overflow: hidden;
-  margin: 0;
+  margin-left: 2em;
+  margin-right: 2em;
   position: relative;
 }
 .portfolio-overlay {
